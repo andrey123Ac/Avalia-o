@@ -1,0 +1,85 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encontre Profissionais</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Encontre Profissionais</h1>
+            <p>Conectando você aos melhores profissionais para suas necessidades.</p>
+        </div>
+    </header>
+    <section id="categorias">
+        <div class="container">
+            <h2>Categorias de Serviços</h2>
+            <ul id="categoriaList">
+                <li>Engenheiro Civil</li>
+                <li>Engenheira Elétrica</li>
+                <li>Engenheiro de Software</li>
+                <li>Engenheira Mecânica</li>
+                <li>Engenheiro de Controle e Automação</li>
+                <li>Engenheira Química</li>
+                <li>Engenheiro Ambiental</li>
+                <li>Engenheira de Produção</li>
+                <li>Engenheiro Eletrônico</li>
+                <li>Engenheira de Petróleo</li>
+                <li>Engenheiro de Materiais</li>
+                <li>Engenheira de Segurança do Trabalho</li>
+                <li>Engenheira Agrônoma</li>
+                <li>Engenheiro de Telecomunicações</li>
+                <li>Engenheira Aeroespacial</li>
+                <li>Engenheiro Biomédico</li>
+            </ul>
+        </div>
+    </section>
+    <section id="buscar-profissional">
+        <div class="container">
+            <h2>Encontre um Profissional</h2>
+            <form id="formBusca">
+                <div class="diplayFlex" >
+                <label for="categoria">Categoria:</label>
+                <select id="categoria" name="categoria">
+                    <option value="Engenheiro Civil">Engenheiro Civil</option>
+                    <option value="Engenheira Elétrica">Engenheira Elétrica</option>
+                    <option value="Engenheiro de Software">Engenheiro de Software</option>
+                    <option value="Engenheira Mecânica">Engenheira Mecânica</option>
+                    <option value="Engenheiro de Controle e Automação">Engenheiro de Controle e Automação</option>
+                    <option value="Engenheira Química">Engenheira Química</option>
+                    <option value="Engenheiro Ambiental">Engenheiro Ambiental</option>
+                    <option value="Engenheira de Produção">Engenheira de Produção</option>
+                    <option value="Engenheiro Eletrônico">Engenheiro Eletrônico</option>
+                    <option value="Engenheira de Petróleo">Engenheira de Petróleo</option>
+                    <option value="Engenheiro de Materiais">Engenheiro de Materiais</option>
+                    <option value="Engenheira de Segurança do Trabalho">Engenheira de Segurança do Trabalho</option>
+                    <option value="Engenheira Agrônoma">Engenheira Agrônoma</option>
+                    <option value="Engenheiro de Telecomunicações">Engenheiro de Telecomunicações</option>
+                    <option value="Engenheira Aeroespacial">Engenheira Aeroespacial</option>
+                    <option value="Engenheiro Biomédico">Engenheiro Biomédico</option>
+                </select>
+                <button type="submit">Buscar</button>
+            </div>
+            </form>
+        </div>
+    </section>
+    <section id="resultados" class="hide">
+        <div class="container">
+            <h2>Resultados da Busca</h2>
+            <div id="resultadosList" class="card-container">
+               
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
